@@ -1,4 +1,7 @@
-﻿namespace WinFormsApp1
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace WinFormsApp1
 {
     partial class InstaForm
     {

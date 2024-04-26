@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace WinFormsApp1
 {
     public partial class InstaForm : Form

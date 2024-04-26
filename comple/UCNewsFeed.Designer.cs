@@ -1,4 +1,7 @@
-﻿namespace ModeloInsta
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace ModeloInsta
 {
     partial class UCNewsFeed
     {

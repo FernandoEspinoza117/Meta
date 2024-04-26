@@ -64,6 +64,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="InstaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstaForm.Designer.cs">
+      <DependentUpon>InstaForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Instagram.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,11 +90,20 @@
     <Compile Include="Threads.Designer.cs">
       <DependentUpon>Threads.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCNewsFeed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCNewsFeed.Designer.cs">
+      <DependentUpon>UCNewsFeed.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CrearUs.resx">
       <DependentUpon>CrearUs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstaForm.resx">
+      <DependentUpon>InstaForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -99,6 +114,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UCNewsFeed.resx">
+      <DependentUpon>UCNewsFeed.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
