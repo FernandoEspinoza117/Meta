@@ -25,7 +25,7 @@ namespace comple
         {
             SqlConnection cn = new SqlConnection(@"Data Source = SPARTAN117\SQLSERVER; Initial Catalog = Meta; Persist Security Info = True; User ID = root2; Password = root2");
             cn.Open();
-            SqlCommand cm = new SqlCommand("select usuario, contraseña from usuarios where correo='" + txtusuario.Text + "'and contraseña='" + txtcontra.Text + "'", cn);
+            SqlCommand cm = new SqlCommand("select usuario, contraseña from usuarios where Correo='" + txtusuario.Text + "'and contraseña='" + txtcontra.Text + "'", cn);
             SqlDataReader rd = cm.ExecuteReader();
             if (rd.Read())
             {
